@@ -1,0 +1,6 @@
+So basically bash has different types of commands the two most important ones that I felt were the inbuilt commands and the external commands so basically inbuilt commands are built into bash as the name suggests lol. When bash needs to run an inbuilt command such as cd or export so basically that command is run in that shell itself in comparison to the external commands such as grep which is run in an external child process and that is then returned to the main shell.
+
+There are 2 main reasons for this distinctioning
+1-If all the commands were inbuilt into bash then that would take a lot of memory and basically the program would become kinda bulky
+2-If all the commands were inbuilt into bash then if you run other shell applications then those wont run because all then commands they need are in bash
+
